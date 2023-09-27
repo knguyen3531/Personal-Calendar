@@ -1,0 +1,80 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #f4f4f4; /* Background color for the body */
+  margin: 0;
+  padding: 0;
+}
+
+.container-lg {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  background-color: #fff; /* Background color for the container */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for the container */
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: #06aed5; /* Header background color */
+  color: white; /* Header text color */
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.header h1 {
+  font-size: 2.5em; /* Header title font size */
+}
+
+.header p {
+  font-size: 1.2em; /* Header subtitle font size */
+}
+
+.time-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Border for each time block */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff; /* Time block background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Box shadow for time blocks */
+}
+
+.time-block:hover {
+  background-color: #f2f2f2; /* Background color on hover */
+}
+
+.hour {
+  font-size: 1.2em; /* Hour text font size */
+  font-weight: bold;
+}
+
+.description {
+  flex-grow: 1;
+  border: none;
+  background-color: transparent;
+  font-size: 1em; /* Description text font size */
+  padding: 5px;
+}
+
+.saveBtn {
+  background-color: #06aed5; /* Save button background color */
+  color: white; /* Save button text color */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.saveBtn:hover {
+  background-color: #057cad; /* Hover background color */
+}
+
+.fa-save {
+  font-size: 1.2em;
+}
