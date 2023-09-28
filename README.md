@@ -19,3 +19,5 @@ Loaded saved events from local storage into the corresponding time blocks.
 Allowed users to save event text to local storage when the save button is clicked.
 Initialized the application by calling necessary functions.
 Set up interval timers to refresh the display and colors every minute for real-time updates.
+
+link insert: https://knguyen3531.github.io/Personal-Calendar/
